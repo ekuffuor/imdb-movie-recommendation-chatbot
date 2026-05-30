@@ -1,0 +1,50 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Vector store
+faiss_index/*
+!faiss_index/.gitkeep
+vectorstore/
+
+# Cache
+.cache/
+gradio_cached_examples/
+
+# Logs
+*.log
+
+# Dataset
+data/*
+!data/.gitkeep
